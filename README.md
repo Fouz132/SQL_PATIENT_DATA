@@ -31,6 +31,11 @@ This repository contains SQL scripts for storing and retrieving patient data. Th
        aadhar VARCHAR(20) UNIQUE
    );
 *
+
+# OUTPUT : 
+![alt text](ScreenShots/create_output.png "Example")
+
+
 ## SQL Operations:
 
 **INSERT Operation :**
@@ -40,11 +45,16 @@ INSERT INTO Patient (name, age, gender, phone, aadhar)
 VALUES ('John Doe', 30, 'Male', '+1234567890', '123-456-789');
 ```
 
+# OUTPUT : 
+![alt text](ScreenShots/insert_output.png"Example")
+
 **SELECT Operation :**
 -- Retrieve all patients
 ```sql
 SELECT * FROM Patient; 
 ```
+# OUTPUT : 
+![alt text](ScreenShots/select_output.png "Example")
 
 
 **UPDATE Operation:**
@@ -54,12 +64,28 @@ SELECT * FROM Patient;
 UPDATE Patient SET phone = '+9876543210' WHERE aadhar = '123-456-789';
 ```
 
+# OUTPUT : 
+![alt text](ScreenShots/update_output.png "Example")
+
+# OUTPUT 2 :
+![alt text](ScreenShots/update_output2.png "Example")
+
 **DELETE Operation:**
 
 -- Delete a patient by Aadhar
 ```sql
 DELETE FROM Patient WHERE aadhar = '123-456-789';
 ```
+# OUTPUT : 
+![alt text](ScreenShots/delete_output.png "Example")
+
+# OUTPUT 2 :
+![alt text](ScreenShots/delete_output2.png "Example")
+
+
+# FINAL OUTPUT : 
+![alt text](ScreenShots/final_output.png "Example")
+
 
 **Testing:**
 
