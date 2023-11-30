@@ -46,7 +46,7 @@ VALUES ('John Doe', 30, 'Male', '+1234567890', '123-456-789');
 ```
 
 ## OUTPUT : 
-![alt text](ScreenShots/insert_output.png"Example")
+![alt text](ScreenShots/insert_output.png "Example")
 
 **SELECT Operation :**
 -- Retrieve all patients
