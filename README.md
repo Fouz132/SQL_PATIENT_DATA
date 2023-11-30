@@ -32,7 +32,7 @@ This repository contains SQL scripts for storing and retrieving patient data. Th
    );
 *
 
-# OUTPUT : 
+## OUTPUT : 
 ![alt text](ScreenShots/create_output.png "Example")
 
 
@@ -45,7 +45,7 @@ INSERT INTO Patient (name, age, gender, phone, aadhar)
 VALUES ('John Doe', 30, 'Male', '+1234567890', '123-456-789');
 ```
 
-# OUTPUT : 
+## OUTPUT : 
 ![alt text](ScreenShots/insert_output.png"Example")
 
 **SELECT Operation :**
@@ -53,7 +53,7 @@ VALUES ('John Doe', 30, 'Male', '+1234567890', '123-456-789');
 ```sql
 SELECT * FROM Patient; 
 ```
-# OUTPUT : 
+## OUTPUT :  
 ![alt text](ScreenShots/select_output.png "Example")
 
 
@@ -63,11 +63,10 @@ SELECT * FROM Patient;
 ```sql
 UPDATE Patient SET phone = '+9876543210' WHERE aadhar = '123-456-789';
 ```
-
-# OUTPUT : 
+## OUTPUT :  
 ![alt text](ScreenShots/update_output.png "Example")
 
-# OUTPUT 2 :
+## OUTPUT 2 :
 ![alt text](ScreenShots/update_output2.png "Example")
 
 **DELETE Operation:**
@@ -76,14 +75,14 @@ UPDATE Patient SET phone = '+9876543210' WHERE aadhar = '123-456-789';
 ```sql
 DELETE FROM Patient WHERE aadhar = '123-456-789';
 ```
-# OUTPUT : 
+## OUTPUT :  
 ![alt text](ScreenShots/delete_output.png "Example")
 
-# OUTPUT 2 :
+## OUTPUT 2 :
 ![alt text](ScreenShots/delete_output2.png "Example")
 
 
-# FINAL OUTPUT : 
+## FINAL OUTPUT : 
 ![alt text](ScreenShots/final_output.png "Example")
 
 
