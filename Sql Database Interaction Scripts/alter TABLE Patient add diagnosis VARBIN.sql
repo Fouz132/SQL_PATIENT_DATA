@@ -1,0 +1,1 @@
+alter TABLE Patient drop column diagnosis;
