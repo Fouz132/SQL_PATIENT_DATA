@@ -35,26 +35,31 @@ This repository contains SQL scripts for storing and retrieving patient data. Th
 
 **INSERT Operation :**
 **-- Example INSERT**
+```sql
 INSERT INTO Patient (name, age, gender, phone, aadhar)
 VALUES ('John Doe', 30, 'Male', '+1234567890', '123-456-789');
-
+```
 
 **SELECT Operation :**
 -- Retrieve all patients
-SELECT * FROM Patient;
+```sql
+SELECT * FROM Patient; 
+```
 
 
 **UPDATE Operation:**
 
 -- Update patient's phone number
+```sql
 UPDATE Patient SET phone = '+9876543210' WHERE aadhar = '123-456-789';
-
+```
 
 **DELETE Operation:**
 
 -- Delete a patient by Aadhar
+```sql
 DELETE FROM Patient WHERE aadhar = '123-456-789';
-
+```
 
 **Testing:**
 
